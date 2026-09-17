@@ -1,0 +1,38 @@
+{
+  "id": "/",
+  "short_name": "ADC Shuttle",
+  "name": "ADC Corporate Shuttle",
+  "description": "Cross-platform corporate shuttle reservation app with real-time arrival notifications and seat booking.",
+  "scope": "/",
+  "start_url": "/",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "display": "standalone",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.png",
+      "type": "image/png",
+      "sizes": "843x860",
+      "purpose": "any"
+    }
+  ]
+}

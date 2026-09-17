@@ -1,0 +1,15 @@
+name = "adc-shuttle-api"
+main = "src/worker.ts"
+compatibility_date = "2024-04-01"
+
+# Cloudflare D1 Database Binding
+# Database: https://dash.cloudflare.com/e751dfa4e122383d061223cfe068cdb1/workers/d1/databases/32fb3a8c-abd2-4c8f-a65c-84425b098c0a/studio
+[[d1_databases]]
+binding = "DB"
+database_name = "adc_shuttle_d1"
+database_id = "32fb3a8c-abd2-4c8f-a65c-84425b098c0a"
+
+[vars]
+CLOUDFLARE_ACCOUNT_ID = "e751dfa4e122383d061223cfe068cdb1"
+CLOUDFLARE_DATABASE_ID = "32fb3a8c-abd2-4c8f-a65c-84425b098c0a"
+ENVIRONMENT = "production"

@@ -1,0 +1,8 @@
+{
+  "name": "Remix ADC Shuttle Mobile",
+  "description": "Cross-platform corporate bus and shuttle reservation mobile application with interactive seat maps, trip tracking, passenger profile, and rating system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
